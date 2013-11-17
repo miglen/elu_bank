@@ -74,7 +74,11 @@ public class dbman {
       */      
         return rs;
     }
-      
+    
+    
+    /*
+     * This function can INSERT, UPDATE && DELETE in Mysql
+     */
     public void Execute(String sql){
        try {           
            stmt = conn.createStatement();
