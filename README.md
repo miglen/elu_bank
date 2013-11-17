@@ -1,12 +1,12 @@
 elu_bank
 ========
 
-Преди да можете да компилирате проекта трябва да си запишете JDBC driver:
-Download - http://dev.mysql.com/downloads/connector/j/
-Netbeans Tutorial - https://netbeans.org/kb/docs/ide/oracle-db.html
+	Преди да можете да компилирате проекта трябва да си запишете JDBC driver:
+	Download - http://dev.mysql.com/downloads/connector/j/
+	Netbeans Tutorial - https://netbeans.org/kb/docs/ide/oracle-db.html
 
-След това е хубаво да си запишете XAMPP и да си импортнете .sql DB файла качен в проекта.
-(За да не се налага да си правите цялата база наново)
+	След това е хубаво да си запишете XAMPP и да си импортнете .sql DB файла качен в проекта.
+	(За да не се налага да си правите цялата база наново)
 
 
 Bank ELU - CSCB Project
