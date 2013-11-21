@@ -56,12 +56,17 @@ Bank ELU - CSCB Project
 	
 	BNBPARSER: Да направим обновяването на валутата в базата от данни - bnbparser class
 	 COMMENTS: Javadoc ++ comments
-		DB: Да се оптимизира конекцията до дб, да е отворена докато се работи и да се затваря чак накрая при спирането на сървъра.
-		    Да се направят заявки с използване на Prepared Statements (http://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html)
+		DB: Да се оптимизира конекцията до дб, да е отворена докато се работи и да се затваря чак накрая при
+		спирането на сървъра.
+		Да се направят заявки с използване на Prepared Statements
+		(http://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html)
 		ADMIN: В потребителския интерфейс да има списък на зявките.
-	Client/Server communication: Да видим как работи SOAP и да го имплементираме в клеинт-сървър мултитред архитектурата.
-				     Да проучим REST API, като евентуален заместител на SOAP (http://docs.oracle.com/javaee/6/tutorial/doc/gipzz.html)
-	                             Ако и 2те ни се сложат прекалоно трудоемки за реализация - ползваме сегашният прост чат многонишков клиент/сървър.
+	Client/Server communication: Да видим как работи SOAP и да го имплементираме в клеинт-сървър мултитред
+				     архитектурата.
+				     Да проучим REST API, като евентуален заместител на SOAP 
+				     (http://docs.oracle.com/javaee/6/tutorial/doc/gipzz.html)
+	                             Ако и 2те ни се сложат прекалоно трудоемки за реализация - ползваме 
+	                             сегашният прост чат многонишков клиент/сървър.
 	Евентуално .ini файл в който да се съхранят.
 	
 	
